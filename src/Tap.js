@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const Tap = ({label, clickFuction}) => {
-  return (
-    <button onClick={() => clickFuction(label)}>{label}</button>
-  );
+const Tap = ({ label, clickFuction }) => {
+  return <button onClick={() => clickFuction(label)}>{label}</button>;
 };
+
 export default Tap;
