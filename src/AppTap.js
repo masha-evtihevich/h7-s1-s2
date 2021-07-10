@@ -1,7 +1,7 @@
 import React from "react";
 import Tap from "./Tap";
 
-class App extends React.Component {
+class AppTap extends React.Component {
     buttonConsole = () => {
         console.log("Кнопка выводит в console");
 };
@@ -22,4 +22,4 @@ class App extends React.Component {
     );
   }
 }
-export default App;
+export default AppTap;

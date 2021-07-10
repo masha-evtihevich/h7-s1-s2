@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import AppTap from "./AppTap";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppTap />
   </React.StrictMode>,
   document.getElementById("root")
 );
